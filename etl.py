@@ -1,3 +1,6 @@
+"""
+Create a simple, and reusable ETL for Postgres databases
+"""
 import csv, sqlalchemy as sql
 from sqlalchemy import create_engine
 import psycopg2
