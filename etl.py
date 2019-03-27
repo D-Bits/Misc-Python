@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 import psycopg2
 
 # Define connection
-engine = create_engine("postgresql+psycopg2://postgres:bVx2$U47S4@!mTpn%qm4@/ETL_Test")
+engine = create_engine("postgresql+psycopg2://postgres:pass@/ETL_Test")
 
 # Seed the users table w/ sample data from csv file
 with open('data.csv', 'r') as data_file:
