@@ -8,4 +8,4 @@ A repo of various Python scripts for scaffolding, automation, etc.
 * hash_compare.py: Compare two checksums to see if they match
 * scaflask.py: Scaffold a basic Flask project
 * scaf-php.py: Scaffold a basic PHP project
-* etl.py: An ETL tool for PostgreSQL databases.
+* django-starter.py: A starter script for Django projects.
