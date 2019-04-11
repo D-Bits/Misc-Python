@@ -39,8 +39,8 @@ def pipenv():
     call('pipenv install flask-security')
     call('git init') # Initialize empty git repo
 
-# Create project root directory
-def create_root():
+# Create project package directory
+def create_pkg():
     
     # Prompt the user for a package name
     pkg_name = input('Enter a name for your Flask package: ')
@@ -84,7 +84,7 @@ def create_tests():
 def main():
 
     pipenv()
-    create_root()
+    create_pkg()
     create_templates()
     create_static()
     create_tests()
